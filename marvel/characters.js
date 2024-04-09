@@ -9,6 +9,7 @@ async function getCharacters(){
         card.innerHTML = `<div class="hq">
         <img src="${element.thumbnail.path.concat("/portrait_xlarge.jpg")}" alt="1">
         <h4>${element.name}</h4>
+    </div>`
    pai.appendChild(card)
     });
 }
