@@ -4,10 +4,9 @@ async function getCharacters(){
     const data = personagens.data.results;
     const pai = document.getElementById("dad");
     data.forEach(element => {
-        console.log(element)
         const card = document.createElement("div")
         card.innerHTML = `<div class="hq">
-        <img src="${element.thumbnail.path.concat("/portrait_xlarge.jpg")}" alt="1">
+        <a href=""> <img src="${element.thumbnail.path.concat("/portrait_xlarge.jpg")}" alt="1"></a>
         <h4>${element.name}</h4>
     </div>`
    pai.appendChild(card)

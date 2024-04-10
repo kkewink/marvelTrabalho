@@ -11,7 +11,7 @@ async function getComics(){
         const card = document.createElement("div");
         card.innerHTML =`
         <div class="hq">
-            <img src="${element.thumbnail.path.concat("/portrait_xlarge.jpg")}" alt="1">
+            <a href=""> <img src="${element.thumbnail.path.concat("/portrait_xlarge.jpg")}" alt="1"></a>
             <h4>${element.title}</h4>
         </div>`
         pai.appendChild(card)
