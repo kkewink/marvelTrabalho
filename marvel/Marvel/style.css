@@ -114,10 +114,17 @@ nav ul li a {
     text-align: left;
     margin: 5px;
     transition: transform 0.3s ease;
-   
+    width: 200px;
+}
+
+
+.hq h4 {
+  white-space: pre-line;
+  width: 200px;
 }
 
 .hq img{
+  
     height: 290px;
     width: 200px;
     border: solid white;

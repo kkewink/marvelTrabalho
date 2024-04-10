@@ -6,7 +6,7 @@ async function getComics(){
     console.log(personagens.data.results)
 
     const dataArray = personagens.data.results;
-    const pai = document.getElementById("dad");
+    const pai = document.getElementById("comicDad");
     dataArray.forEach(element => {
         const card = document.createElement("div");
         card.innerHTML =`
