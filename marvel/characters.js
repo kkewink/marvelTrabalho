@@ -3,10 +3,18 @@ async function getCharacters(){
     const personagens = await response.json();
     const data = personagens.data.results;
     const pai = document.getElementById("dad");
+    var writer = ""
     data.forEach(element => {
+console.log(element)
+        const dataCreators = element.urls;
+        dataCreators.forEach(element => {
+            
+            writer = element.url;
+         
+        })
         const card = document.createElement("div")
         card.innerHTML = `<div class="hq">
-        <a href=""> <img src="${element.thumbnail.path.concat("/portrait_xlarge.jpg")}" alt="1"></a>
+        <a href="${writer}"> <img src="${element.thumbnail.path.concat("/portrait_xlarge.jpg")}" alt="1"></a>
         <h4>${element.name}</h4>
     </div>`
    pai.appendChild(card)
