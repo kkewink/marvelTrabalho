@@ -3,8 +3,10 @@
   margin: 0;
   padding: 0;
   object-fit: cover;
- 
-
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font: bold;
 }
 
 header img{

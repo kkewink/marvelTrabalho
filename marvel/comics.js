@@ -9,14 +9,15 @@ async function getComics(){
     const pai = document.getElementById("comicDad");
     var writer = ""
     dataArray.forEach(element => {
-
+        // Pegando o nome do escritor
         const dataCreators = element.urls;
         dataCreators.forEach(element => {
-            
             writer = element.url;
-        
         })
 
+
+
+        console.log(element.id)
         const card = document.createElement("div");
         card.innerHTML =`
         <div class="hq">

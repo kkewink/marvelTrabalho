@@ -5,7 +5,6 @@ async function getCharacters(){
     const pai = document.getElementById("dad");
     var writer = ""
     data.forEach(element => {
-console.log(element)
         const dataCreators = element.urls;
         dataCreators.forEach(element => {
             
