@@ -14,14 +14,12 @@ async function getComics(){
         dataCreators.forEach(element => {
             writer = element.url;
         })
-
-
-
-        console.log(element.id)
+        
+        
         const card = document.createElement("div");
         card.innerHTML =`
         <div class="hq">
-            <a href="${writer}"> <img src="${element.thumbnail.path.concat("/portrait_xlarge.jpg")}" alt="1"></a>
+            <a href="magneto.html?id=${element.id}"><img src="${element.thumbnail.path.concat(`/portrait_xlarge.${element.thumbnail.extension}`)}" alt="1"></a>
             <h4>${element.title}</h4>
         </div>`
         pai.appendChild(card)

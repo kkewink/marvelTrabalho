@@ -100,6 +100,8 @@ header img{
     text-align: left;
     margin-left: 50px;
     margin-top: 10px;
+    width: 70%;
+    white-space: initial;
 }
 
 .capa h3{
@@ -125,6 +127,8 @@ header img{
     text-align: left;
     margin-left: 50px;
     margin-top: 60px;
+    width: 70%;
+    white-space: initial;
 
 }
 
