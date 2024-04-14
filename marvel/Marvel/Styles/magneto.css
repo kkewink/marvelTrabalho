@@ -9,23 +9,20 @@
   font: bold;
 }
 
-header img{
-
-  margin: 0 auto;
-  margin-right: 578px;
-  
-  
+.header img{
+height: 100%;
+margin: 0 auto;
 }
 
 .header {
   position: fixed;
-  display: flex;
   background-color: #171717;
   width: 100%;
   height: 80px;
-  justify-content: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   z-index: 100000;
-
 }
 
 .pai img{
@@ -35,10 +32,13 @@ header img{
   opacity: 255%;
 }
 .container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 8px 0;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin:  auto;
+  padding: 8px 0;
 }
 
 header {
@@ -48,29 +48,13 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: right;
- 
-
 }
 
 header h1 {
   margin: 0;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
-nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
 
 .dropdown-menu {
   display: none;
@@ -99,6 +83,9 @@ nav ul li a {
 }
 
 .cabeça{
+  width: 100%;
+  height: 150px;
+  position: fixed;
   background-color: rgb(40, 38, 38);
   text-align: center;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -165,8 +152,6 @@ h4{
   justify-content: center;
 }
 
-
-
 .hq:hover {
   transform: translateY(-10px); /* Faz a imagem "saltar" quando o mouse passa por cima */
 }
@@ -176,14 +161,12 @@ h4{
 }
 
 .container1 {
+  right: 0;
+  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: right;
-
-  
-
-
 }
 
  header {
@@ -332,4 +315,124 @@ color: #000000;
 .fundo{
 background-image: url(imagem/hq.png);
 }
+.juntar {
+  max-width: 100%;
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+  .capa img{
+  
+    height: 500px;
+    width: 400px;
+    border: 3px solid #171717;
+  }
+  body{
+    background-image: url(imagem/hq.png);
+  }
+  
+ 
+  .container {
+    height: 900px;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.capa {
+    display: inline-block;
+    margin-right: 10px; /* Ajuste conforme necessário */
+    vertical-align: top; /* Para alinhar as divs no topo */
+    text-align: left;
+
+}
+#nome{
+    
+    color: white;
+    background-color: #171717;
+     text-align: center;
+   height: 500px;
+   width: 1000px;
+   border: 3px solid black;
+   
+}
+
+.capa h1{
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font: bold;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 70%;
+    white-space: initial;
+}
+
+.capa h3{
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font: bold;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 60px;
+
+}
+
+.capa h5{
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font: bold;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 60px;
+    width: 70%;
+    white-space: initial;
+
+}
+
+.seta{
+    
+}
+
+
+.container22 {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+nav ul {
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li { 
+  height: 100%;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+nav ul li a {
+  
+  color: #fff;
+  text-decoration: none;
+}
