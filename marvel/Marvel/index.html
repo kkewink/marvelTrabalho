@@ -13,10 +13,14 @@
     <header class="header">
         <img src="imagem/Marvel logo.png" alt="">
         <div class="container1">
-            <form class="search-form" action="#" method="get">
-              <input type="text" placeholder="Pesquisar..." name="search">
-              <button type="submit">Buscar</button>
-            </form>
+          <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Digite aqui para pesquisar">
+            <button onclick="search()">Pesquisar</button>
+          </div>
+         
+          <div id="searchResults">
+            <!-- Os resultados da pesquisa serão exibidos aqui -->
+          </div>
           </div>
     </header> 
     
@@ -74,6 +78,7 @@
 </div>
 <script src="Scripts/comics.js"></script>
 <script src="Scripts/characters.js"></script>
+<script src="Scripts/pesquisa.js"></script>
 </body>
 </html>
 

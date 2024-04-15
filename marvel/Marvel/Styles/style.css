@@ -367,3 +367,43 @@ background-image: url(imagem/hq.png);
   width: 100%;
   height: auto;
 }
+
+.highlight {
+  background-color: rgb(207, 207, 207);
+}
+ 
+ 
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+ 
+#searchInput {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+ 
+.search-container button {
+  padding: 10px 20px;
+  background-color: #900000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+ 
+.search-container button:hover {
+  background-color: #720000;
+}
+ 
+ 
+#searchResults {
+
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
