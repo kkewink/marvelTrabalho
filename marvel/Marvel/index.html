@@ -1,85 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles/style.css">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Styles/style.css">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-    <header class="header">
-        <img src="imagem/Marvel logo.png" alt="">
-        <div class="container1">
-          <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Digite aqui para pesquisar">
-            <button onclick="search()">Pesquisar</button>
-          </div>
-         
-          <div id="searchResults">
-            <!-- Os resultados da pesquisa serão exibidos aqui -->
-          </div>
-          </div>
-    </header> 
-    
+  <header class="header">
+    <img src="imagem/Marvel logo.png" alt="">
+    <div class="container1">
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Digite aqui para pesquisar">
+        <button onclick="search()">Pesquisar</button>
+      </div>
 
-        <header class="cabeça">
-        <div class="container">
-            <br><br><br>
-            <nav>
-                <ul>
-                    <li class="dropdown" id="comics">
-                        <a href="#comicDad">COMICS</a>      
-                    </li>
-                    <li class="dropdown" id="char">
-                        <a href="#charactersDad">CHARACTERS</a>
-                    </li>
-                </ul>
-            </nav>
+      <div id="searchResults">
+        <!-- Os resultados da pesquisa serão exibidos aqui -->
+      </div>
+    </div>
+  </header>
+
+
+  <header class="cabeça">
+    <div class="container">
+      <br><br><br>
+      <nav>
+        <ul>
+          <li class="dropdown" id="comics">
+            <a href="#comicDad">COMICS</a>
+          </li>
+          <li class="dropdown" id="char">
+            <a href="#charactersDad">CHARACTERS</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="fundo">
+
+    <div class="carousel">
+      <div class="carousel-inner">
+        <div class="slide">
+          <img src="imagem/1292616 (1).jpg" alt="Image 1">
         </div>
-    </header> 
-<div class="fundo">
-
-  <div class="carousel">
-    <div class="carousel-inner">
-      <div class="slide">
-        <img src="imagem/1292616 (1).jpg" alt="Image 1">
-      </div>
-      <div class="slide">
-        <img src="imagem/1351042.png" alt="Image 2">
-      </div>
-      <div class="slide">
-        <img src="imagem/1352019.png" alt="Image 3">
-      </div>
-      <div class="slide">
-        <img src="imagem/fundopreto.png" alt="Image 3">
+        <div class="slide">
+          <img src="imagem/1351042.png" alt="Image 2">
+        </div>
+        <div class="slide">
+          <img src="imagem/1352019.png" alt="Image 3">
+        </div>
+        <div class="slide">
+          <img src="imagem/fundopreto.png" alt="Image 3">
+        </div>
       </div>
     </div>
-  </div>
-  <script src="Scripts/carrosel.js"></script>
-    
-      <div class="quadrinhos" ><p><h1>COMICS</h1></p></div>
-      <div class="dad" id="comicDad">
-        
- 
-    </div>
+    <script src="Scripts/carrosel.js"></script>
 
-   
-    <div class="characters" id="characters char"><p><h1>CHARACTERS</h1></p></div>
+    <div class="quadrinhos">
+      <p>
+        <h1>COMICS</h1>
+      </p>
+    </div>
+    <div class="dad" id="comicDad">
+
+    </div>
+    <div class="characters" id="characters char">
+      <p>
+        <h1 id="charactersDad">CHARACTERS</h1>
+      </p>
+    </div>
 
     <div class="dad" id="dad">
-       
-    
-    </a>
-    
-    </div>
-</div>
-<script src="Scripts/comics.js"></script>
-<script src="Scripts/characters.js"></script>
-<script src="Scripts/pesquisa.js"></script>
-</body>
-</html>
 
-    
+     
+
+    </div>
+  </div>
+  <script src="Scripts/comics.js"></script>
+  <script src="Scripts/characters.js"></script>
+  <script src="Scripts/pesquisa.js"></script>
+</body>
+
+</html>
